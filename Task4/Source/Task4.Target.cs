@@ -10,6 +10,5 @@ public class Task4Target : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "Task4" } );
-		PublicDependencyModuleNames.AddRange(new string[] { "Task4" });
 	}
 }
